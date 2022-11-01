@@ -24,6 +24,7 @@ public class HotKeyService : IHotKeyService
     //              key settings
     //          add the SolutionStep/KeyCombo to the currentSolution
     //      Add the currentSolution to the AllSolutions object
+    // TODO: make this shorter
     public HotKeySolutions SolutionsStringToObject(string solutions)
     {
         HotKeySolutions allSolutions = new();
